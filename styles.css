@@ -1,0 +1,57 @@
+/* styles.css */
+
+body {
+    background-image: url('C:\\Users\\linga\\upgraded web\\Profile picture animated.jpg');
+    background-size: 100% auto; /* Adjust the background-size property */
+    background-attachment: fixed;
+    background-position: center;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    backdrop-filter: blur(10px); /* Adjust the blur value as needed */
+    overflow-x: hidden; /* Add this line to prevent horizontal scrolling */
+}
+
+
+header {
+    background-color: rgba(51, 51, 51, 0.8); /* Adding a semi-transparent background for better readability */
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(30, 30, 30, 0.8); /* Semi-transparent background for the navigation bar */
+    padding: 10px 0;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+}
+
+main {
+    text-align: left;
+    padding: 40px;
+}
+
+h2 {
+    color: #ffcc00; /* Highlight color for section headings */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+a {
+    color: #4285f4; /* Google blue color for links */
+}
