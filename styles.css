@@ -1,21 +1,18 @@
-/* styles.css */
-
 body {
     background-image: url('Profile picture animated.jpg');
-    background-size: 100% auto; /* Adjust the background-size property */
+    background-size: cover;
     background-attachment: fixed;
     background-position: center;
     color: #ffffff;
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    backdrop-filter: blur(10px); /* Adjust the blur value as needed */
-    overflow-x: hidden; /* Add this line to prevent horizontal scrolling */
+    backdrop-filter: blur(10px);
+    overflow-x: hidden;
 }
 
-
 header {
-    background-color: rgba(51, 51, 51, 0.8); /* Adding a semi-transparent background for better readability */
+    background-color: rgba(51, 51, 51, 0.8);
     padding: 10px;
     text-align: center;
 }
@@ -23,7 +20,7 @@ header {
 nav {
     display: flex;
     justify-content: center;
-    background-color: rgba(30, 30, 30, 0.8); /* Semi-transparent background for the navigation bar */
+    background-color: rgba(30, 30, 30, 0.8);
     padding: 10px 0;
 }
 
@@ -34,13 +31,19 @@ nav a {
     font-weight: bold;
 }
 
+@media only screen and (max-width: 600px) {
+    nav a {
+        font-size: 14px;
+    }
+}
+
 main {
     text-align: left;
     padding: 40px;
 }
 
 h2 {
-    color: #ffcc00; /* Highlight color for section headings */
+    color: #ffcc00;
 }
 
 ul {
@@ -53,5 +56,5 @@ li {
 }
 
 a {
-    color: #4285f4; /* Google blue color for links */
+    color: #4285f4;
 }
