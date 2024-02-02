@@ -68,6 +68,10 @@ a {
 }
 
 /* Additional styles for homepage banner */
+.homepage-banner {
+    position: relative;
+}
+
 .homepage-banner img {
     width: 100%;
     height: auto;
@@ -75,7 +79,11 @@ a {
     object-fit: cover; /* or object-fit: contain; */
 }
 
-.homepage-banner {
-    max-width: 800px;
-    margin: 0 auto; /* Center the banner */
+.homepage-banner .banner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #ffffff;
 }
