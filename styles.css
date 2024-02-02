@@ -66,3 +66,16 @@ li {
 a {
     color: #4285f4;
 }
+
+/* Additional styles for homepage banner */
+.homepage-banner img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    object-fit: cover; /* or object-fit: contain; */
+}
+
+.homepage-banner {
+    max-width: 800px;
+    margin: 0 auto; /* Center the banner */
+}
